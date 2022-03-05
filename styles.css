@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background: rgb(240, 239, 239);
+}
+
+.parent {
+  display: flex;
+  gap: 28px;
+}
+
+.icon {
+  font-size: 34px;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2),
+    -3px -3px 5px #ffffff;
+  transition: box-shadow 1s;
+}
+
+.icon:hover {
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.2),
+    inset -3px -3px 5px #ffffff;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+.fa-linkedin {
+  color: blue;
+}
+
+.fa-github {
+  color: #1e1d1d;
+}
